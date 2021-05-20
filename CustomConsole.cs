@@ -7,12 +7,12 @@ namespace custom_console_example
     {
         public IStandardStreamWriter Out => throw new System.NotImplementedException();
 
-        public bool IsOutputRedirected => throw new System.NotImplementedException();
+        public bool IsOutputRedirected => false;
 
         public IStandardStreamWriter Error => throw new System.NotImplementedException();
 
-        public bool IsErrorRedirected => throw new System.NotImplementedException();
+        public bool IsErrorRedirected => false;
 
-        public bool IsInputRedirected => throw new System.NotImplementedException();
+        public bool IsInputRedirected => false;
     }
 }
