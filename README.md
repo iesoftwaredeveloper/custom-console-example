@@ -20,12 +20,27 @@ To build:
 dotnet build
 ```
 
-### ▶ Running and Settings
+### Running and Settings
 
 This example project does not have any settings or configuration.
 
 To run:
 
 ```bash
-dotnet run
+dotnet run -- --help
+```
+
+This results in the output:
+
+```bash
+Hello World!
+custom-console-example
+  Console app to demonstrate System.CommandLine.IConsole
+
+Usage:
+  custom-console-example [options]
+
+Options:
+  --version       Show version information
+  -?, -h, --help  Show help and usage information
 ```
