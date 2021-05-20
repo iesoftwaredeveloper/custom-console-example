@@ -5,6 +5,11 @@ namespace custom_console_example
 {
     public class CustomConsole : IConsole
     {
+        public CustomConsole(IStandardStreamWriter stdOut = null, IStandardStreamWriter stdError = null)
+        {
+
+        }
+        
         public IStandardStreamWriter Out => throw new System.NotImplementedException();
 
         public bool IsOutputRedirected => false;
